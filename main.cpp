@@ -24,7 +24,7 @@ int main() {
 
 		cout << endl << endl << endl << endl;	
 
-		for(int i(0); i < evolutions; i++) {
+		for(int i(1); i < evolutions; i++) {
 			g.play();
 			g.displayGrid();
 
